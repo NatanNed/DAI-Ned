@@ -1,0 +1,55 @@
+@options
+@packages
+-classpath
+'C:/Users/Maria/.m2/repository/org/openjfx/javafx-controls/21.0.3/javafx-controls-21.0.3.jar;C:/Users/Maria/.m2/repository/org/openjfx/javafx-controls/21.0.3/javafx-controls-21.0.3-win.jar;C:/Users/Maria/.m2/repository/org/openjfx/javafx-graphics/21.0.3/javafx-graphics-21.0.3.jar;C:/Users/Maria/.m2/repository/org/openjfx/javafx-graphics/21.0.3/javafx-graphics-21.0.3-win.jar;C:/Users/Maria/.m2/repository/org/openjfx/javafx-base/21.0.3/javafx-base-21.0.3.jar;C:/Users/Maria/.m2/repository/org/openjfx/javafx-base/21.0.3/javafx-base-21.0.3-win.jar;C:/Users/Maria/.m2/repository/org/openjfx/javafx-fxml/21.0.3/javafx-fxml-21.0.3.jar;C:/Users/Maria/.m2/repository/org/openjfx/javafx-fxml/21.0.3/javafx-fxml-21.0.3-win.jar;C:/Users/Maria/.m2/repository/org/postgresql/postgresql/42.7.3/postgresql-42.7.3.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/Users/Maria/Desktop/dai-system-nedaykhlib (2)/dai-system-nedaykhlib/dai-system/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Maria/Desktop/dai-system-nedaykhlib (2)/dai-system-nedaykhlib/dai-system/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'DAI Information System 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'DAI Information System 1.0-SNAPSHOT API'
+org.example.dai.controller
+org.example.dai
+org.example.dai.model
+org.example.dai.service
+org.example.dai.util
+C:\Users\Maria\.m2\repository\org\openjfx\javafx-controls\21.0.3\javafx-controls-21.0.3.jar = 1779800446111
+C:\Users\Maria\.m2\repository\org\openjfx\javafx-controls\21.0.3\javafx-controls-21.0.3-win.jar = 1779800445915
+C:\Users\Maria\.m2\repository\org\openjfx\javafx-graphics\21.0.3\javafx-graphics-21.0.3.jar = 1779799980044
+C:\Users\Maria\.m2\repository\org\openjfx\javafx-graphics\21.0.3\javafx-graphics-21.0.3-win.jar = 1779800448483
+C:\Users\Maria\.m2\repository\org\openjfx\javafx-base\21.0.3\javafx-base-21.0.3.jar = 1779800438733
+C:\Users\Maria\.m2\repository\org\openjfx\javafx-base\21.0.3\javafx-base-21.0.3-win.jar = 1779800438246
+C:\Users\Maria\.m2\repository\org\openjfx\javafx-fxml\21.0.3\javafx-fxml-21.0.3.jar = 1779799980408
+C:\Users\Maria\.m2\repository\org\openjfx\javafx-fxml\21.0.3\javafx-fxml-21.0.3-win.jar = 1779800433898
+C:\Users\Maria\.m2\repository\org\postgresql\postgresql\42.7.3\postgresql-42.7.3.jar = 1779800441674
+C:\Users\Maria\Desktop\dai-system-nedaykhlib (2)\dai-system-nedaykhlib\dai-system\src\main\java = 1779737029000
+C:\Users\Maria\Desktop\dai-system-nedaykhlib (2)\dai-system-nedaykhlib\dai-system\target\site\apidocs\allclasses-index.html = 1779815495391
+C:\Users\Maria\Desktop\dai-system-nedaykhlib (2)\dai-system-nedaykhlib\dai-system\target\site\apidocs\allpackages-index.html = 1779815495405
+C:\Users\Maria\Desktop\dai-system-nedaykhlib (2)\dai-system-nedaykhlib\dai-system\target\site\apidocs\element-list = 1779815494710
+C:\Users\Maria\Desktop\dai-system-nedaykhlib (2)\dai-system-nedaykhlib\dai-system\target\site\apidocs\help-doc.html = 1779815495669
+C:\Users\Maria\Desktop\dai-system-nedaykhlib (2)\dai-system-nedaykhlib\dai-system\target\site\apidocs\index-all.html = 1779815495596
+C:\Users\Maria\Desktop\dai-system-nedaykhlib (2)\dai-system-nedaykhlib\dai-system\target\site\apidocs\index.html = 1779815495279
+C:\Users\Maria\Desktop\dai-system-nedaykhlib (2)\dai-system-nedaykhlib\dai-system\target\site\apidocs\member-search-index.js = 1779815495516
+C:\Users\Maria\Desktop\dai-system-nedaykhlib (2)\dai-system-nedaykhlib\dai-system\target\site\apidocs\module-search-index.js = 1779815495466
+C:\Users\Maria\Desktop\dai-system-nedaykhlib (2)\dai-system-nedaykhlib\dai-system\target\site\apidocs\overview-summary.html = 1779815495636
+C:\Users\Maria\Desktop\dai-system-nedaykhlib (2)\dai-system-nedaykhlib\dai-system\target\site\apidocs\overview-tree.html = 1779815495230
+C:\Users\Maria\Desktop\dai-system-nedaykhlib (2)\dai-system-nedaykhlib\dai-system\target\site\apidocs\package-search-index.js = 1779815495471
+C:\Users\Maria\Desktop\dai-system-nedaykhlib (2)\dai-system-nedaykhlib\dai-system\target\site\apidocs\search.html = 1779815495629
+C:\Users\Maria\Desktop\dai-system-nedaykhlib (2)\dai-system-nedaykhlib\dai-system\target\site\apidocs\tag-search-index.js = 1779815495521
+C:\Users\Maria\Desktop\dai-system-nedaykhlib (2)\dai-system-nedaykhlib\dai-system\target\site\apidocs\type-search-index.js = 1779815495477

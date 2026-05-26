@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.dai.controller.FineController"
+            style="-fx-background-color: #f4f8fb;">
+
+    <top>
+        <VBox spacing="12">
+            <padding>
+                <Insets top="15" right="15" bottom="15" left="15"/>
+            </padding>
+
+            <Label text="Інформаційна система підтримки діяльності ДАІ"
+                   style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+
+            <Label text="Робота з таблицею штрафів"
+                   style="-fx-font-size: 15px;"/>
+
+            <HBox spacing="10">
+                <TextField fx:id="vehicleField" promptText="ID транспортного засобу" prefWidth="180"/>
+                <TextField fx:id="driverField" promptText="ID водія" prefWidth="130"/>
+                <TextField fx:id="dateField" promptText="Дата: 2026-05-25" prefWidth="160"/>
+                <TextField fx:id="amountField" promptText="Сума штрафу" prefWidth="140"/>
+            </HBox>
+
+            <HBox spacing="10">
+                <TextField fx:id="violationField" promptText="Тип порушення" prefWidth="370"/>
+                <CheckBox fx:id="paidCheck" text="Сплачено"/>
+                <CheckBox fx:id="accidentCheck" text="ДТП"/>
+            </HBox>
+
+            <HBox spacing="10">
+                <Button text="Додати" onAction="#addFine" prefWidth="120"/>
+                <Button text="Оновити" onAction="#updateFine" prefWidth="120"/>
+                <Button text="Видалити" onAction="#deleteFine" prefWidth="120"/>
+                <Button text="Очистити" onAction="#clearFields" prefWidth="120"/>
+                <Button text="Показати всі" onAction="#refreshData" prefWidth="120"/>
+            </HBox>
+
+            <HBox spacing="10">
+                <TextField fx:id="searchField" promptText="Пошук за типом порушення" prefWidth="370"/>
+                <Button text="Пошук" onAction="#searchFine" prefWidth="120"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <center>
+        <TableView fx:id="finesTable" style="-fx-font-size: 13px;">
+            <columns>
+                <TableColumn fx:id="idColumn" text="ID" prefWidth="60"/>
+                <TableColumn fx:id="vehicleColumn" text="ТЗ" prefWidth="90"/>
+                <TableColumn fx:id="driverColumn" text="Водій" prefWidth="90"/>
+                <TableColumn fx:id="dateColumn" text="Дата" prefWidth="120"/>
+                <TableColumn fx:id="amountColumn" text="Сума" prefWidth="120"/>
+                <TableColumn fx:id="violationColumn" text="Порушення" prefWidth="380"/>
+                <TableColumn fx:id="paidColumn" text="Сплачено" prefWidth="100"/>
+                <TableColumn fx:id="accidentColumn" text="ДТП" prefWidth="80"/>
+            </columns>
+        </TableView>
+    </center>
+
+</BorderPane>
